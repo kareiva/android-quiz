@@ -48,8 +48,8 @@ public class App {
 			mCallback = callback;
 			mProgressDialog = new ProgressDialog(mActivity);
 			mProgressDialog.setIndeterminate(true);
-			mProgressDialog.setTitle("Initializing Database");
-			mProgressDialog.setMessage("This only occurs the first time this app runs");
+			mProgressDialog.setTitle("Loading database");
+			mProgressDialog.setMessage("Tai nutinka tik pirmo paleidimo metu.");
 		}
 		
 		@Override

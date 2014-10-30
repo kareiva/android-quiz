@@ -8,7 +8,7 @@
     <color name="blue">#000099</color>
     <color name="yellow">#FFCC00</color>
     <color name="foreground">@color/white</color>
-    <color name="background">@color/blue</color>
+    <color name="background">#000000</color>
     <color name="foreground_inverse">@color/blue</color>
     <color name="highlight">@color/orange</color>
     

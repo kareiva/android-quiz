@@ -2,19 +2,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     <CheckBoxPreference 
         android:key="@string/key_soundEnabled" 
-        android:title="Sound"
-        android:summaryOn="Sound is enabled"
-        android:summaryOff="Sound is not enabled"
+        android:title="Garsas"
+        android:summaryOn="Garsas įjungtas"
+        android:summaryOff="Garsas išjungtas"
         android:defaultValue="true"/>
     <CheckBoxPreference 
         android:key="@string/key_autoNextQuestion"
-        android:title="Auto Next"
-        android:summary="Automatically go to the next question after answering"
-        android:defaultValue="false"/>
+        android:title="Eiti toliau automatiškai"
+        android:summary="Automatiškai pereiti prie kito klausimo"
+        android:defaultValue="true"/>
 	<EditTextPreference 
 	    android:key="@string/key_quizLength"
-	    android:title="Quiz Length"
-	    android:summary="Set the number of questions in a quiz"
+	    android:title="Klausimų kiekis"
+	    android:summary="Pasirinkite norimą klausimų kiekį"
 	    android:numeric="integer"
-	    android:defaultValue="15"/>
+	    android:defaultValue="30"/>
 </PreferenceScreen>

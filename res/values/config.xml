@@ -16,7 +16,7 @@
 	<!-- Whether we automatically go to the next question after the current one is
 		 answered.  Note that the user can currently change this from the settings page-->
 	<bool name="config_autoNext">false</bool>
-	
+		
 	<!-- Delay in millis before automatically going to the next question -->
 	<integer name="config_autoNextDelay">1500</integer>
 	
@@ -30,5 +30,5 @@
 	<bool name="config_defaultSoundEnabled">true</bool>
 	
 	<!-- Default number of questions in a quiz -->
-	<integer name="config_defaultNumQuestions">15</integer>
+	<integer name="config_defaultNumQuestions">30</integer>
 </resources>
