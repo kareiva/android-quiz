@@ -5202,7 +5202,7 @@
 		
 	</category>
 		
-	<category>
+	<!--  category>
 		<title>Testas</title>
 		<text>Garsai ir vaizdai</text>  
 		<question>
@@ -5221,5 +5221,5 @@
 			<choice>Nežinau...</choice>
 			<answer>0</answer>
 		</question>
-	</category>
+	</category -->
 </quiz>

@@ -1,10 +1,19 @@
 package com.jjm.android.quiz.activity;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 import roboguice.activity.RoboListActivity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v4.widget.CursorAdapter;
 import android.util.Log;
 import android.view.Menu;
@@ -12,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,6 +35,7 @@ import com.jjm.android.quiz.model.DataSource;
 
 public class Categories extends RoboListActivity {
 	private static final String TAG = Categories.class.getSimpleName();
+
 
 	private DataSource mDataSource = new DataSource(this);
 
@@ -56,7 +67,19 @@ public class Categories extends RoboListActivity {
 				initListAdapter();
 			}
 		});
+
 	}
+	
+    public void openNewActivity(View pdflangobutton) {
+        Intent intent = new Intent(this, Pdflangas.class);
+        startActivity(intent);
+
+    }
+
+
+
+	
+
 
 	@Override
 	protected void onResume() {
