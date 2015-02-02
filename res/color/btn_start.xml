@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:app="http://schemas.android.com/apk/res/com.jjm.android.quiz">
+     xmlns:app="http://schemas.android.com/apk/res/com.vu.lrmd.hamradio.quiz">
     <item android:state_enabled="false"
           android:color="#d8d8d8"/>
     <item app:state_showing_answer="false"

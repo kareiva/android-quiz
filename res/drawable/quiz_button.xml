@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:app="http://schemas.android.com/apk/res/com.jjm.android.quiz" xmlns:android="http://schemas.android.com/apk/res/android">
+<selector xmlns:app="http://schemas.android.com/apk/res/com.vu.lrmd.hamradio.quiz" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/quiz_button_normal" 
         app:state_showing_answer="false"/>

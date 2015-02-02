@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/com.jjm.android.quiz"
+    xmlns:app="http://schemas.android.com/apk/res/com.vu.lrmd.hamradio.quiz"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scrollView"
     android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:gravity="center_horizontal"
             android:orientation="vertical" >
 
-            <com.jjm.android.quiz.view.QuizButton
+            <com.vu.lrmd.hamradio.quiz.view.QuizButton
                 android:id="@+id/answer1"
                 style="@style/button"
                 android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 app:correct="false"
                 app:showing_answer="true" />
 
-            <com.jjm.android.quiz.view.QuizButton
+            <com.vu.lrmd.hamradio.quiz.view.QuizButton
                 android:id="@+id/answer2"
                 style="@style/button"
                 android:layout_width="match_parent"
@@ -43,13 +43,13 @@
                 app:correct="true"
                 app:showing_answer="true" />
 
-            <com.jjm.android.quiz.view.QuizButton
+            <com.vu.lrmd.hamradio.quiz.view.QuizButton
                 android:id="@+id/answer3"
                 style="@style/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.jjm.android.quiz.view.QuizButton
+            <com.vu.lrmd.hamradio.quiz.view.QuizButton
                 android:id="@+id/answer4"
                 style="@style/button"
                 android:layout_width="match_parent"
