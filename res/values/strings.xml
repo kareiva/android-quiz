@@ -35,7 +35,7 @@
     <string name="choose_category">Pasirinkite kategoriją</string>
     <string name="title_activity_categories">Pasirinkite kategoriją</string>
     <string name="title_activity_settings">SettingsActivity</string>
-    <string name="setting_sound_label">Sound</string>
+    <string name="setting_sound_label">Garsas</string>
 	<string name="loading_progress_message">Įkraunama duomenų bazė</string>
 	<string name="loading_progress_title">Kuriame duomenų bazę</string>
 	<string name="header_image_content_description">Hamradio.LT</string>

@@ -93,7 +93,7 @@ public abstract class QuestionFragment extends RoboFragment {
 				getQuestionListener().onNextQuestion();
 			}
 		});
-		mNextButton.setText(mLastQuestion ? "Finish Quiz" : "Next Question");
+		mNextButton.setText(mLastQuestion ? "Pabaiga" : "Kitas klausimas");
 		
 		
 		onAnswerChanged();
