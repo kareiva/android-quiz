@@ -177,7 +177,7 @@ public class Quiz extends RoboFragmentActivity implements QuestionListener {
 	}
 
 	private String getProgressText() {
-		return String.format("Klausimas %d ið %d", mQuestionIndex + 1,
+		return String.format("Klausimas %d iÅ¡ %d", mQuestionIndex + 1,
 				mQuestions.length);
 	}
 
@@ -185,7 +185,7 @@ public class Quiz extends RoboFragmentActivity implements QuestionListener {
 		if (mNumAnswered == 0)
 			return null;
 		int pct = (int) (100.0f * mNumCorrect / mNumAnswered);
-		return String.format("%d ið %d teisingai (%d%%)", mNumCorrect,
+		return String.format("%d iÅ¡ %d teisingai (%d%%)", mNumCorrect,
 				mNumAnswered, pct);
 	}
 
